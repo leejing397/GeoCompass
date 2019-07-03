@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author = {"gxsn" => "gxsn_mobile@163.com"}
   s.platform = :ios, "9.0"
 
-  s.source = { :http => "http://sngeomap.oss-cn-beijing.aliyuncs.com/1.0.1/GeoMap.zip", :sha1 => "641619e472858bc9688f4bbf93522db131006753" }
+  s.source = { :http => "http://sngeomap.oss-cn-beijing.aliyuncs.com/1.0.1/GeoMap.zip", :sha1 => "489a40b01d38c12120b851881b22e570ec4f34e0" }
   s.vendored_frameworks = "GeoMap/GeoMap.framework"
   s.frameworks = "UIKit", "CoreLocation","MapKit"
   s.libraries = "c++", "stdc++", "stdc++.6", "z", "sqlite3", "iconv", "resolv", "protobuf"
